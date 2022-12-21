@@ -851,3 +851,21 @@ fse
     color: var(--skin-color);
     font-size: 125%;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--bg-black-50);
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--skin-color);
+
+  }
