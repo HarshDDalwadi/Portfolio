@@ -872,27 +872,27 @@ h3.my-profession {
 
 .frontend {
     width: 75%;
-    animation: frontend 3s;
+    animation: frontend 15s;
 }
 
 .backend {
     width: 70%;
-    animation: backend 3s;
+    animation: backend 15s;
 }
 
 .web3 {
     width: 45%;
-    animation: web3 3s;
+    animation: web3 15s;
 }
 
 .editing {
     width: 60%;
-    animation: editing 3s;
+    animation: editing 15s;
 }
 
 .languages {
     width: 90%;
-    animation: languages 3s;
+    animation: languages 15s;
 }
 
 @keyframes frontend {
