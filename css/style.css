@@ -868,3 +868,79 @@ h3.my-profession {
     background: var(--skin-color);
 
   }
+
+
+.frontend {
+    width: 75%;
+    animation: frontend 3s;
+}
+
+.backend {
+    width: 70%;
+    animation: backend 3s;
+}
+
+.web3 {
+    width: 45%;
+    animation: web3 3s;
+}
+
+.editing {
+    width: 60%;
+    animation: editing 3s;
+}
+
+.languages {
+    width: 90%;
+    animation: languages 3s;
+}
+
+@keyframes frontend {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes backend {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes web3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 45%;
+    }
+}
+
+@keyframes editing{
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes languages{
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
